@@ -15,5 +15,7 @@ require 'pry'
   }
   
 def remove_strawberry(contacts)
-  contacts["Freddy Mercury"][:favorite_ice_cream_flavors] = ["cookie dough", "mint chip"]
+  contacts.each do |person, contact_details_hash|
+  
+end
 end
